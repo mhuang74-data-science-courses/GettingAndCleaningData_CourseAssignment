@@ -1,3 +1,4 @@
+## For DEBUGGING: set MAX_ROWS to small positive value to make it easier to debug. Set to -1 to read in entire files.
 MAX_ROWS <- -1
 
 ## dataset root directory
