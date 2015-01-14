@@ -72,4 +72,4 @@ names(tidy_data_grouped_df) <- c("Activity_SubjectID", "Measurement", "AverageVa
 
 ## write output file
 
-write.table(tidy_data_grouped_df, file = "tidy_data.txt")
+write.table(tidy_data_grouped_df, file = "tidy_data.txt", row.name=FALSE)
